@@ -30,9 +30,9 @@ body {
   background-color: #070217;
 }
 
-.main-content .logo img {
+.logo {
   margin-bottom: 50px;
-  display: inline-block;
+  display: block;
 }
 
 .main-content__wrp {
@@ -44,9 +44,11 @@ body {
   padding: 24px 49px;
 }
 
-.main-content a:not(:last-child) {
+.main-content__link:not(:last-child) {
   margin-right: 25px;
 }
+
+/*article*/
 
 .container {
   margin: 0 auto;
@@ -54,15 +56,18 @@ body {
   width: 1170px;
 }
 
-h1 {
+.title {
+  margin: 0;
   margin-bottom: 40px;
 }
 
-h2, h3 {
+.title-h2, .title-h3 {
+  margin: 0;
   margin-bottom: 10px;
 }
 
-p {
+.paragraph {
+  margin: 0;
   margin-bottom: 40px;
   width: 872px;
 }
@@ -90,11 +95,11 @@ p {
   margin-bottom: 20px;
 }
 
-:not(figure) > img {
+.img:not(.figure) {
   margin-bottom: 40px;
 }
 
-figure {
+.figure {
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
