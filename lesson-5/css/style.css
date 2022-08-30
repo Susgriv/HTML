@@ -252,7 +252,7 @@ body {
   height: 505px;
   vertical-align: top;
   background-color: var(--bkg_white);
-  filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.1));
+  position: relative;
 }
 
 .card__wrp:nth-child(2n) {
@@ -286,9 +286,9 @@ body {
 }
 
 .card__inner {
-  position: relative;
+  /*position: relative;*/
   padding: 25px;
-  height: 275px;
+  /*height: 275px;*/
 }
 
 .card__title-h2 {
